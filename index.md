@@ -1,5 +1,5 @@
 ---
 layout: default
 ---
-## My notes:
-# Measure Thoery
+# My notes
+## Measure Thoery
