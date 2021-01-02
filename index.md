@@ -3,5 +3,5 @@ layout: default
 title: Home
 ---
 # My notes
-[Test file] (./_posts/test.md)
+[Test file] (./_posts/test.html)
 ## Measure Thoery
