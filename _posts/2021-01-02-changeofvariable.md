@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Change of variable formular
+title: Change of variable formula
 author: ThinkCat23
 date: Jan 2 2021
 comments: true
