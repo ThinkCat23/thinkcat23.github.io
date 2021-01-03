@@ -2,8 +2,17 @@
 layout: default
 title: Home
 ---
-# My notes
-<a href = "https://thinkcat23.github.io/posts/test.md"> Test file </a>
-<a href = "https://thinkcat23.github.io/test.md"> Test file </a>
-<a href = "./posts/test.html"> Test file </a>
-## Measure Thoery
+
+<h1>My Notes</h1>
+
+
+<ul>
+{% for category in site.categories %}
+  <h1 style = "font-size: 150%; color: black"><a name="{{ category | first }}">{{ category | first }}</a></h1>
+    <ul>
+    {% for post in category.last %}
+    <b><a href="{{ post.url }}">{{ post.title }}</a></b>
+    {% endfor %}
+    </ul>
+{% endfor %}
+</ul>
